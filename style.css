@@ -1,22 +1,14 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* style.css */
+body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header, main, footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+  }
 
 .top-wrapper {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: center;
+    padding: 20px;
 }
 
 .red-box {
@@ -25,62 +17,57 @@ header, main, footer {
     background: #f00;
     position: relative;
 }
-
+  
 .white-box {
-    display: flex;
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #fff;
+    display:　flex;
+    gap: 10px;
     padding: 10px;
+    background: #fff;
+  
 }
-
+  
 .purple-box {
     width: 40px;
     height: 40px;
     background: #6729a0;
-    margin-left: 10px;
 }
-
-.middle-wrapper {
+  
+  .middle-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: 20px 0;
-}
-
-.left-container, .right-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.green-box {
+    padding: 20px;
+  }
+  
+.left-container .green-box {
     width: 150px;
     height: 250px;
     background: #0a5;
 }
 
-.blue-box {
+.right-container .blue-box {
     width: 250px;
     height: 250px;
     background: #2563eb;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 40px;
+    gap: 10px;
 }
-
 .orange-box {
     width: 140px;
     height: 40px;
     background: #ff863f;
-    margin: 5px 0;
+    margin: 5px;
 }
 
 .yellow-box {
     width: 400px;
     height: 100px;
     background: #fd0;
-}
+    margin: 20px auto;
+}  
