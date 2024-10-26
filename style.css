@@ -4,70 +4,79 @@ body, html {
     padding: 0;
     box-sizing: border-box;
   }
-
-.top-wrapper {
+  
+ body {
+    width: 400px;
+    margin: 0 auto;
+}
+  
+  header, main, footer {
+    width: 400px;
+  }
+  
+  .top-wrapper {
     display: flex;
     justify-content: center;
-    padding: 20px;
-}
-
-.red-box {
+  }
+  
+  .red-box {
     width: 400px;
     height: 100px;
     background: #f00;
     position: relative;
-}
+  }
   
-.white-box {
+  .white-box {
     position: absolute;
     top: 20px;
     right: 20px;
-    display:　flex;
+    display: flex;
     gap: 10px;
     padding: 10px;
     background: #fff;
+  }
   
-}
-  
-.purple-box {
+  .purple-box {
     width: 40px;
     height: 40px;
     background: #6729a0;
-}
+  }
   
   .middle-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
   }
   
-.left-container .green-box {
+  .left-container .green-box {
     width: 150px;
     height: 250px;
     background: #0a5;
-}
-
-.right-container .blue-box {
+  }
+  
+  .right-container .blue-box {
     width: 250px;
-    height: 250px;
+    height: 100%;
     background: #2563eb;
-    margin-top: 40px;
-    margin-left: 40px;
-    padding: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.orange-box {
+  }
+  
+  .content{
+    margin-top: 40px;
+    margin-left: 40px;
+ } 
+  .orange-box {
+    border: 5px solid #fff;
     width: 140px;
     height: 40px;
     background: #ff863f;
-    margin: 5px;
-}
-
-.yellow-box {
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  footer .yellow-box {
     width: 400px;
     height: 100px;
     background: #fd0;
-    margin: 20px auto;
-}  
+  }  
+  
